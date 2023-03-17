@@ -1,0 +1,42 @@
+.fa {
+    font-size: 24px; /* This is the font size of the Icons in the footer*/
+    color:black; /* This is the color of the Icons in the footer*/
+    }
+
+body {
+    overflow-x: hidden; /* This disables side scroll left to right */
+}
+
+.social-icons {
+display: flex;
+justify-content: space-between;
+width: 200px; /* adjust the width as needed */
+}
+
+.social-icons a {
+margin: 0 5px; /* adjust the margin as needed */
+font-size: 24px; /* adjust the size of the icons as needed */
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
+.home-banner {
+text-align: center;
+width: 100%;
+margin-top: 100px;
+}
+
+.home-banner img {
+top: 0;
+left: 0;
+width: 100%;
+height: auto;
+object-fit: cover;
+object-position: 20% 100%;
+overflow: hidden;
+max-height: 60vh;
+max-width: 100%;
+}
